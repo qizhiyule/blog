@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>Hello.md</title>
-    <link href="/blog/2025/05/14/Hello-md/"/>
-    <url>/blog/2025/05/14/Hello-md/</url>
+    <title>FirstPost</title>
+    <link href="/blog/2025/05/14/FirstPost/"/>
+    <url>/blog/2025/05/14/FirstPost/</url>
     
-    <content type="html"><![CDATA[<h2 id="这是我的第一篇博客"><a href="#这是我的第一篇博客" class="headerlink" title="这是我的第一篇博客"></a>这是我的第一篇博客</h2><p>豺虎遍地，公之宝剑尚沉睡于鞘中，抑或宁断于猛兽之颈欤！</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>豺虎遍地，公之宝剑尚沉睡于鞘中，抑或宁断于猛兽之颈欤！</p></blockquote><span id="more"></span><h2 id="这是我的第一篇博客"><a href="#这是我的第一篇博客" class="headerlink" title="这是我的第一篇博客"></a>这是我的第一篇博客</h2><p>黄菊枝头生晓寒。人生莫放酒杯干。风前横笛斜吹雨，醉里簪花倒著冠。<br>身健在，且加餐。舞裙歌板尽清欢。黄花白发相牵挽，付与时人冷眼看。</p>]]></content>
     
     
     
