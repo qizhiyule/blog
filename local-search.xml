@@ -4,13 +4,19 @@
   
   
   <entry>
-    <title>FirstPost</title>
-    <link href="/blog/2025/05/14/FirstPost/"/>
-    <url>/blog/2025/05/14/FirstPost/</url>
+    <title>跨平台桌面应用方案剖析</title>
+    <link href="/blog/2025/05/17/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E6%96%B9%E6%A1%88%E5%89%96%E6%9E%90/"/>
+    <url>/blog/2025/05/17/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8%E6%96%B9%E6%A1%88%E5%89%96%E6%9E%90/</url>
     
-    <content type="html"><![CDATA[<blockquote><p>豺虎遍地，公之宝剑尚沉睡于鞘中，抑或宁断于猛兽之颈欤！</p></blockquote><span id="more"></span><h2 id="这是我的第一篇博客"><a href="#这是我的第一篇博客" class="headerlink" title="这是我的第一篇博客"></a>这是我的第一篇博客</h2><p>黄菊枝头生晓寒。人生莫放酒杯干。风前横笛斜吹雨，醉里簪花倒著冠。<br>身健在，且加餐。舞裙歌板尽清欢。黄花白发相牵挽，付与时人冷眼看。</p>]]></content>
+    <content type="html"><![CDATA[<p>桌面应用是编程开发最直观的应用领域，如何快速高质量地开发应用是一门学问。原生开发性能最好，支持度最好，但是一来无跨平台能力，从而导致多平台开发缓慢；二来原生开发方案不见得更好，最明显的就是WIndows平台的桌面应用方案全是一堆烂泥。</p><span id="more"></span><h2 id="移植C-GUI库"><a href="#移植C-GUI库" class="headerlink" title="移植C++ GUI库"></a>移植C++ GUI库</h2><ul><li>QT</li><li>Slint</li><li>FLTK</li><li>imGUI</li><li>wxWidgets</li><li>GTK</li></ul><p>前两者商用受限制，后几种虽然开源免费，但是界面丑的实在接受不了。</p><h2 id="借助渲染引擎自绘"><a href="#借助渲染引擎自绘" class="headerlink" title="借助渲染引擎自绘"></a>借助渲染引擎自绘</h2><p>介乎C++ GUI库和Web技术之间的一种方案，性能中等、体积和内存占用中等。</p><p>缺点是普遍的，那就是一旦大量绘制就会导致界面卡顿。</p><h2 id="Web技术"><a href="#Web技术" class="headerlink" title="Web技术"></a>Web技术</h2><h3 id="cef"><a href="#cef" class="headerlink" title="cef"></a>cef</h3><p>技术比较老，用的很少了。</p><h3 id="chromium"><a href="#chromium" class="headerlink" title="chromium"></a>chromium</h3><p>Electron 和 NW.js</p><h3 id="WebView"><a href="#WebView" class="headerlink" title="WebView"></a>WebView</h3><p>太多了，基本每种语言都有自己的WebView库。</p>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>编程</tag>
+      
+    </tags>
     
   </entry>
   
